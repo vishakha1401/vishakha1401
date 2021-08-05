@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: #812121;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* height: 4000px; */
+}
+.title{
+    color: black;
+    font-size: 70px;
+     display: inline;  
+}
+
+header{
+   padding: 20px;
+   background: url("img/header.jpg") ;
+    /* text-align: center;  */
+    height: 260px;
+}
+/* #f6b319 */
+
+nav{
+    /* background-color: #333; */
+    overflow: hidden;
+    color: aliceblue;
+    text-align: center;
+    /* position:static; */
+    margin-top: -184px;
+    margin-left: 516px;
+    
+}
+/* .navbar ul{
+    overflow: auto;
+} */
+.navbar li{
+    float:left;
+    list-style: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+ main .college img{
+     width: 1050px;
+     display: block;
+     margin: 12px auto;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    display: inline;
+    float: center;
+    
+}
+header p{
+    margin-left: 139px;
+    margin-top: 133px;
+    font-size: 17px;
+    color: rgb(134, 134, 134);
+}
+main h2{
+    text-align: center;
+    font-size: 30px;
+    /* color: white; */
+}
+
+ .image{
+    /* width: 200px; */
+    height: 115px;
+    /* display: inline;  */
+    margin-top: 65px;
+} 
+
+
+/* .college{
+    display: inline-block;
+    height: 80%;
+    width: 500px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* border: 2px solid brown; */
+    /* position: relative; */
+    /* padding: 50px; */
+
+.follow{
+    
+    /* text-align: center; */
+    /* border: white solid 2px; */
+    
+    /* line-height: 22px; */
+  
+    /* background-color:lightslategray; */
+    padding: 5px;
+    width: 751px;
+    display: block;
+    margin: auto;
+    margin-top: 27px;
+   
+    margin-left: 68px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.first{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    /* font-size: 35px; */
+    border: 2px grey solid;
+    border-radius: 10px;
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    /* margin-right: -6px;
+    right: -38px; */
+    /* background-color: darkgrey; */
+    margin-top: 22px;
+    left: 42px;
+    
+}
+
+
+.first:hover, .second:hover{
+
+    font-weight: bold;
+}
+/* .second{
+    text-decoration: none;
+    color: white;
+    width: 292px;
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    border: 2px black solid;
+    border-radius: 10px;
+    
+    
+    display: block;
+    margin: auto;
+    margin-left: 521px;
+    margin-top: 40px;
+   background-color: darkgrey;
+} */
+.campus div img{
+    
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    border: 2px brown solid;
+    
+    width: 435px;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    margin-right: 110px;
+    right: -179px;
+    margin-top: 40px;
+}
+
+ div .institute{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    /* border: 2px black solid; */
+    margin-right: 110px;
+    right: -177px;
+    /* width: auto; */
+   
+    position: relative;
+    display: inline-block;
+    background-color: darkgrey;
+    padding: 10px;
+    margin-bottom: 60px;
+
+}   
+.campus1{
+    width: 440px;
+}
+.campus2{
+    width: auto;
+}
+.institute:hover{
+    background-color: blue;
+}
+footer{
+    background-color:rgb(41, 35, 35);
+    height: 300px;
+    overflow: hidden;
+}
+/* .social img{
+    display: inline-block;
+    width: 100px;
+
+} */
+.us_image{
+    /* width: auto; */
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+    width: 200px;
+    height: 300px;
+    right: -246px;
+    
+    
+}
+.about_us_info p{
+    /* border: 2px solid black; */
+    width: 750px;
+    display: block;
+    margin: auto;
+    margin-bottom: 34px;
+    text-align: justify;
+    
+}
+/* .vishakha{
+    width: 300px;
+    height: 400px;
+}
+.gargi{
+    width: 300px;
+    height: 400px;
+} */
+.contact{
+    border: white 2px solid;
+    width: 500px;
+   display:block;
+   margin: auto;
+   left: 100px;
+   
+}
